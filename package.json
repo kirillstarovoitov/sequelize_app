@@ -1,0 +1,31 @@
+{
+  "name": "sequelize_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillstarovoitov/sequelize_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillstarovoitov/sequelize_app/issues"
+  },
+  "homepage": "https://github.com/kirillstarovoitov/sequelize_app#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.35.1",
+    "sequelize-cli": "^6.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  }
+}
