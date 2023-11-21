@@ -1,17 +1,11 @@
-const models = require("../models");
 const db = require("../models");
 
 class UsersService {
     async getUsers() {
-        return await models.users.findAll(
-            // {
-            //     include: [{
-            //         model: models.roles, as: 'roles'
-            //     }],
-            // }
-            // {
-            //     include: [models.roles],
-            // }
+        return await db.users.findAll(
+            {
+                include: [db.roles],
+            }
         );
     }
 
